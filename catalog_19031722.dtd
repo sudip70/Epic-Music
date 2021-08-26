@@ -1,0 +1,33 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT epic_sounds (epic_header,epic_background,epic_body,epic_footer)>
+<!ELEMENT epic_header (epic_logo,epic_login)>
+<!ELEMENT epic_logo EMPTY>
+<!ELEMENT epic_login (#PCDATA)>
+<!ELEMENT epic_background (epic_img+,epic_moto+)>
+<!ELEMENT epic_img EMPTY>
+<!ELEMENT epic_moto (#PCDATA)>
+<!ELEMENT epic_body (epic_musics)>
+<!ELEMENT epic_musics (epic_music+)>
+<!ELEMENT epic_music (music_img,music_details)>
+<!ELEMENT music_img EMPTY>
+<!ELEMENT music_details (music_name,music_director,music_producer,music_singers,music_writer,music_genre)>
+<!ELEMENT music_name (#PCDATA)>
+<!ELEMENT music_director (#PCDATA)>
+<!ELEMENT music_producer (#PCDATA)>
+<!ELEMENT music_singers (#PCDATA)>
+<!ELEMENT music_writer (#PCDATA)>
+<!ELEMENT music_genre (#PCDATA)>
+<!ELEMENT epic_footer (epic_info)>
+<!ELEMENT epic_info (epic_name,epic_address,epic_contact+,epic_email+)>
+<!ELEMENT epic_name (#PCDATA)>
+<!ELEMENT epic_address (#PCDATA)>
+<!ELEMENT epic_contact (#PCDATA)>
+<!ELEMENT epic_email (#PCDATA)>
+
+<!ATTLIST epic_img id ID #REQUIRED>
+<!ATTLIST epic_moto id ID #REQUIRED>
+<!ATTLIST epic_music id ID #REQUIRED>
+<!ATTLIST music_details language NMTOKEN #REQUIRED>
+<!ATTLIST epic_contact type NMTOKEN #REQUIRED>
+<!ATTLIST epic_email type NMTOKEN #REQUIRED>

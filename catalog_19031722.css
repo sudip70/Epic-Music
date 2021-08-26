@@ -1,0 +1,269 @@
+/*Designing main tag*/
+epic_sounds 
+    {display: block; 
+        }
+/*Designing header */
+epic_header
+        { display: block; background-color: lightblue; width: 1519px; height: 200px;
+
+        }
+/*Inserting logo and defining its placement and size */
+epic_logo
+        {display:flex; background-image: url(logo.png);
+            height: 150px;
+            width: 150px;
+            background-size: cover;
+            margin-left: 15%;
+            float: left;
+
+        }
+/* Designing log in box */
+epic_login
+        {display: flex; background-color: rgb(3, 124, 224); width: 3cm; margin-top: 50px; float: right; margin-right: 20%; 
+            padding: 15px; border-radius: 5px; font-size: 25px; font-family: Arial;
+            
+        }
+/* Adding hover to log in box */
+epic_login:hover
+        {
+            background-color: white;
+            color:black;
+        }
+/* Giving style and placement to the tite */
+epic_title
+        {display: flex;margin-top: 100px; color: white; font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+/* Defining size and color of the background */
+epic_background
+            { display: block; background-color: lightblue; height: 500px;
+
+            }
+
+/* Inserting image and defining its size and placement */            
+epic_img[id="ei1"]
+            { display: block;
+                background-image: url(image1.jpg);
+                height: 220px;
+                width: 300px;
+                float: right;
+                margin-top: 10px;
+                margin-right: 20px;
+                background-size: cover;
+                border-radius: 5px;
+            }
+/* Inserting image and defining its size and placement */
+ epic_img[id="ei2"]
+            { display: block;
+                background-image: url(image2.jpg);
+                height: 220px;
+                width: 300px;
+                margin-top: 140px;
+                float: right;
+                margin-right: 20px;
+                background-size: cover;
+                border-radius: 5px;
+            }
+/* Inserting image and defining its size and placement */
+epic_img[id="ei3"]
+            { display: block;
+                background-image: url(image3.jpg);
+                height: 220px;
+                width: 300px;
+                margin-top: 250px;
+                float: right;
+                margin-right: 20px;
+                background-size: cover;
+                border-radius: 5px;
+            }
+/* Inserting moto of the company and defining its size and placement */
+epic_moto[id="em1"]
+    { display: flex;
+        color: black;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-left: 25px;
+
+    }  
+/* Inserting moto of the company and defining its size and placement */ 
+epic_moto[id="em2"]
+    { display: flex;
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 30px;
+
+    } 
+/* Defining size and color of the body */ 
+epic_body
+    { display: block; background-color: lightblue; height: 800px;
+
+    }
+
+epic_musics
+    {
+        display: inline-block; 
+    }
+/* Inserting the music image and defining its size and placement */
+music_img
+    { display: block;
+        background-image: url(music1.jpg);
+        height: 150px;
+        width: 260px;
+        margin: 20px;
+        background-size: 50%;
+        border-radius: 5px;
+
+    }
+/*Desgining the the box for music details */
+epic_music[id="epm1"]
+    { display: inline-block; margin-left: 120px; margin-right: 20px; overflow: hidden;
+        background-color: rgb(20, 91, 109); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+epic_music[id="epm2"]
+    { display: inline-block; margin-top: 20px; overflow: hidden;
+        background-color: rgba(16, 145, 81, 0.808); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+epic_music[id="epm3"]
+    { display: inline-block; margin-top: 20px; margin-left: 20px; overflow: hidden;
+        background-color: rgb(20, 91, 109); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+epic_music[id="epm4"]
+    { display: inline-block; margin-top: 20px; margin-left: 20px; overflow: hidden;
+        background-color: rgba(16, 145, 81, 0.808); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+epic_music[id="epm5"]
+    { display: inline-block; margin-left: 120px; margin-right: 20px; overflow: hidden;
+        background-color: rgb(20, 91, 109); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+epic_music[id="epm6"]
+    { display: inline-block; margin-top: 20px; overflow: hidden;
+        background-color: rgba(16, 145, 81, 0.808); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+epic_music[id="epm7"]
+    { display: inline-block; margin-top: 20px; margin-left: 20px; overflow: hidden;
+        background-color: rgb(20, 91, 109); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+epic_music[id="epm8"]
+    { display: inline-block; margin-top: 20px; margin-left: 20px; overflow: hidden;
+        background-color: rgba(16, 145, 81, 0.808); width: 300px; height: 350px; border-color:black; border-radius: 5px; border-style: dashed;
+    }
+music_details
+    {display: block; background-color: transparent; margin-top: 40px; margin-left: 20px;
+
+    }
+/* Design and style for the music details */
+music_name
+    { display: inline-block; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: white;
+
+    }
+music_name:hover
+    {
+        display: block;
+        color: greenyellow;
+        font-size: 120%;
+    }
+music_director
+    { display: block; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: white;
+
+    }  
+music_director:hover
+    {
+        display: block;
+        color: greenyellow;
+        font-size: 120%;
+    }
+music_producer 
+    { display: block; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: white;
+
+    }
+music_producer:hover
+    {
+        display: block;
+        color: greenyellow;
+        font-size: 120%;
+    }
+music_singers
+    { display: block; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: white;
+
+    }
+music_singers:hover
+    {
+        display: block;
+        color: greenyellow;
+        font-size: 120%;
+    }
+music_writer
+    { display: block; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: white;
+
+    }
+music_writer:hover
+    {
+        display: block;
+        color: greenyellow;
+        font-size: 120%;
+    }
+music_genre
+    { display: block; font-size: 15px; font-family: Arial, Helvetica, sans-serif; color: white;
+
+    }
+music_genre:hover
+    {
+        display: block;
+        color: greenyellow;
+        font-size: 120%;
+    }
+/* Desgining and sytling footer of the webpage */
+epic_footer
+    {display: block; background-color: lightblue; height: 100px;
+
+    }
+epic_info
+    { display: block;
+
+    }
+/* Giving style to the name of the company */
+epic_name
+    { display: flex;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif; 
+        font-weight: bold;
+        margin-left: 45%; 
+        color: black;
+
+    }
+/* Giving style to the Address of the company */
+epic_address
+    { display: inline-block; margin-left: 250px; margin-top: 20px;
+
+    }
+/* Giving style to the Contact of the company */
+epic_contact
+    { display: inline-block; margin-left: 50px;
+
+    }
+/* Giving style to the Email of the company */
+epic_email
+    { display: inline-block; margin-left: 50px
+
+    }
+/* Adding hover to the Contact of the company */
+epic_contact:hover
+    {
+        display: inline-block;
+        text-decoration: underline;
+        background-color: blue;
+        color: whitesmoke;
+    }
+/* Adding hover to the Email of the company */
+epic_email:hover
+    {
+        display: inline-block;
+        text-decoration: underline;
+        background-color: blue;
+        color: whitesmoke;
+    }

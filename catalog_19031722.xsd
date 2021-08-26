@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="epic_sounds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="epic_header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="epic_logo"/>
+              <xs:element type="xs:string" name="epic_login"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="epic_background">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="epic_img" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="id" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="epic_moto" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="id" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="epic_body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="epic_musics">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="epic_music" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="music_img"/>
+                          <xs:element name="music_details">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="music_name"/>
+                                <xs:element type="xs:string" name="music_director"/>
+                                <xs:element type="xs:string" name="music_producer"/>
+                                <xs:element type="xs:string" name="music_singers"/>
+                                <xs:element type="xs:string" name="music_writer"/>
+                                <xs:element type="xs:string" name="music_genre"/>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="language" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="epic_footer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="epic_info">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="epic_name"/>
+                    <xs:element type="xs:string" name="epic_address"/>
+                    <xs:element name="epic_contact" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="epic_email" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="type" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

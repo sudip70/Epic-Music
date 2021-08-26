@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Attaching css file to systle the webpage-->
+<?xml-stylesheet type="text/css" href="catalog_19031722.css"?>
+<!--Attaching DTD-->
+<!DOCTYPE epic_sounds SYSTEM "catalog_19031722.dtd">
+<!--Creating main tag and attaching it to schema-->
+<epic_sounds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031722.xsd">
+<!--Tag for Header-->
+    <epic_header>
+        <!--Tag for logo-->
+        <epic_logo></epic_logo>
+        <!--Tag for Log in-->
+        <epic_login>Log In</epic_login>
+    </epic_header>
+    <!--End if header Tag-->
+    <!--Start of Background-->
+    <epic_background>
+        <!--Tag for Images-->
+        <epic_img id="ei1"></epic_img>
+        <epic_img id="ei2"></epic_img>
+        <epic_img id="ei3"></epic_img>
+        <!--Tag for moto-->
+        <epic_moto id="em1">Bringing happiness through music!!</epic_moto>
+        <epic_moto id="em2">Music is the mediator between the spiritual and the sensual life. Let the music take you away. Give in to the groove.</epic_moto>
+    </epic_background>
+    <!--End of the background tag-->
+    <!--Start of the body tag-->
+    <epic_body>
+        <!--Creating music tag for music-->
+        <epic_musics>
+            <!--Entering music details-->
+            <epic_music id="epm1">
+                <music_img></music_img>
+                <music_details language="English">
+                    <music_name>Song Name: The Night We Met</music_name>
+                    <music_director>Director: Rick Parker</music_director>
+                    <music_producer>Producer: Ben Schneider</music_producer>
+                    <music_singers>Singer: Lord Huron</music_singers>
+                    <music_writer>Writer: Ben Schneider</music_writer>
+                    <music_genre>Genre: Folk Rock</music_genre>
+                </music_details>
+            </epic_music>
+            <epic_music id="epm2">
+            <music_img></music_img>
+                <music_details language="English">
+                    <music_name>Song Name: Fast Car</music_name>
+                    <music_director>Director: Tracy Chapman</music_director>
+                    <music_producer>Producer: David Kershenbaum</music_producer>
+                    <music_singers>Singer: Tracy Chapman</music_singers>
+                    <music_writer>Writer: Tracy Chapman</music_writer>
+                    <music_genre>Genre: Folk Rock</music_genre>
+                </music_details>
+            </epic_music>
+            <epic_music id="epm3">
+            <music_img></music_img>
+                <music_details language="English">
+                    <music_name>Songe Name: Pray for Me</music_name>
+                    <music_director>Director: Doc Mckinney</music_director>
+                    <music_producer>Producer: Frank Dukers</music_producer>
+                    <music_singers>Singers: The Weeknd and Kendrick Lamar</music_singers>
+                    <music_writer>Writer: Kendrick Lamar</music_writer>
+                    <music_genre>Genre: Pop-rap</music_genre>
+                </music_details>
+            </epic_music>
+            <epic_music id="epm4">
+            <music_img></music_img>
+                <music_details language="English">
+                    <music_name>Song Name: After Hours</music_name>
+                    <music_director>Director: DaHeala</music_director>
+                    <music_producer>Producer: The Weeknd</music_producer>
+                    <music_singers>Singer: The Weeknd</music_singers>
+                    <music_writer>Writers: Mario Winans and Carlo Montagnese</music_writer>
+                    <music_genre>Genre: Electro House</music_genre>
+                </music_details>
+            </epic_music>
+            <epic_music id="epm5">
+            <music_img></music_img>
+                <music_details language="Nepali">
+                    <music_name>Song Name: Gulabi</music_name>
+                    <music_director>Director: Arun Mahara</music_director>
+                    <music_producer>Producer: Sushant KC</music_producer>
+                    <music_singers>Singer: Sushant KC</music_singers>
+                    <music_writer>Writer: Sushant KC</music_writer>
+                    <music_genre>Genre: Pop</music_genre>
+                </music_details>
+            </epic_music>
+            <epic_music id="epm6">
+            <music_img></music_img>
+                <music_details language="English">
+                    <music_name>Song Name: Goosebumps</music_name>
+                    <music_director>Director: HVME</music_director>
+                    <music_producer>Producer: Jacques Webster</music_producer>
+                    <music_singers>Singer: Travis Scott</music_singers>
+                    <music_writer>Writer: Brock Korsan</music_writer>
+                    <music_genre>Genre: Rap</music_genre>
+                </music_details>
+            </epic_music>
+            <epic_music id="epm7">
+            <music_img></music_img>
+                <music_details language="English">
+                    <music_name>Song Name: Cold/Mess </music_name>
+                    <music_director>Director: Konrad Snyder</music_director>
+                    <music_producer>Producer: Peter Groenwald</music_producer>
+                    <music_singers>Singer: Prateek Kuhad</music_singers>
+                    <music_writer>Writer: Prateek Kuhad</music_writer>
+                    <music_genre>Genre: Pop</music_genre>
+                </music_details>
+            </epic_music>
+            <epic_music id="epm8">
+            <music_img></music_img>
+                <music_details language="English">
+                    <music_name>Song Name: Conversations in the Dark</music_name>
+                    <music_director>Director: Pom Pom</music_director>
+                    <music_producer>Producer: Gregg Wattenberg</music_producer>
+                    <music_singers>Singer: John Legend</music_singers>
+                    <music_writer>Writer: Kellen Pomeranz</music_writer>
+                    <music_genre>Genre: Soul</music_genre>
+                </music_details>
+            </epic_music>
+        </epic_musics>
+        <!--End of the music tag-->
+    </epic_body>
+    <!--End of the body tag-->
+    <!--Start of the footer-->
+    <epic_footer>
+        <!--Tag for company details-->
+        <epic_info>
+            <epic_name>Epic Music Pvt. Ltd. </epic_name>
+            <epic_address>Kamal Marg, Kathmandu 44600</epic_address>
+            <epic_contact type="mobile">Manager: 9840568410</epic_contact>
+            <epic_contact type="landline">Office: 01-4512929</epic_contact>
+            <epic_email type="Personal">Email: epicmusic1@gmail.com</epic_email>
+            <epic_email type="Official">Email: epicmusic2@gmail.com</epic_email>
+        </epic_info>
+        <!--End of the company details-->
+    </epic_footer>
+    <!--End of the footer-->
+</epic_sounds>
+<!--End of the tag-->
+<!--End of the progarm-->
